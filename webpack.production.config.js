@@ -9,17 +9,17 @@ module.exports = {
     library: 'ReactFormBuilder',
     libraryTarget: 'umd',
   },
-
-  externals: {
-    //don't bundle the 'react' npm package with our bundle.js
-    //but get it from a global 'React' variable
-    'react': 'react',
-    'react-dom': 'react-dom',
-    'react-datepicker': 'react-datepicker',
-    'classnames': 'classnames',
-    'jquery': 'jquery',
-    'bootstrap': 'bootstrap'
-  },
+  // 
+  // externals: {
+  //   //don't bundle the 'react' npm package with our bundle.js
+  //   //but get it from a global 'React' variable
+  //   'react': 'react',
+  //   'react-dom': 'react-dom',
+  //   'react-datepicker': 'react-datepicker',
+  //   'classnames': 'classnames',
+  //   'jquery': 'jquery',
+  //   'bootstrap': 'bootstrap'
+  // },
 
   module: {
     loaders: [
